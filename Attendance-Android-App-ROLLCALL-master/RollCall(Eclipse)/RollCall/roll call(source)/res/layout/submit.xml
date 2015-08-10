@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backdark"
+    android:id="@+id/sublayout" >
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:orientation="horizontal"
+        android:weightSum="100">
+        
+        <TextView 
+            android:id="@+id/submstr"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:textColor="#FFFFFF"
+            android:text="SUBMISSION">
+            <requestFocus />
+        </TextView>
+           
+    </LinearLayout>
+        
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:orientation="horizontal"
+        android:weightSum="100">
+
+        <EditText
+            android:id="@+id/bdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="100"
+            android:inputType="date"
+            android:hint="dd/mm/yyyy" 
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="25dp">
+
+            <requestFocus />
+        </EditText>
+        
+    </LinearLayout>
+    <ScrollView
+        android:id="@+id/scroll_disp"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp" 
+        android:layout_weight="20">
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+    		android:layout_height="match_parent"
+    		android:orientation="vertical" >
+    		
+        	<Button
+      			android:id="@+id/bsSub1"
+        		android:layout_width="250dp"
+        		android:layout_height="50dp"
+        		android:layout_gravity="center"
+        		android:layout_margin="20dp"
+        		android:padding="10dp"
+        		android:text="Sub1"
+        		android:textColor="#FFFFFF"
+        		android:textSize="25dp" />
+        	<Button
+      			android:id="@+id/bsSub2"
+        		android:layout_width="250dp"
+        		android:layout_height="50dp"
+        		android:layout_gravity="center"
+        		android:layout_margin="20dp"
+        		android:padding="10dp"
+        		android:text="Sub2"
+        		android:textColor="#FFFFFF"
+        		android:textSize="25dp" />
+        	<Button
+      			android:id="@+id/bsSub3"
+        		android:layout_width="250dp"
+        		android:layout_height="50dp"
+        		android:layout_gravity="center"
+        		android:layout_margin="20dp"
+        		android:padding="10dp"
+        		android:text="Sub3"
+        		android:textColor="#FFFFFF"
+        		android:textSize="25dp" />
+        	<Button
+      			android:id="@+id/bsSub4"
+        		android:layout_width="250dp"
+        		android:layout_height="50dp"
+        		android:layout_gravity="center"
+        		android:layout_margin="20dp"
+        		android:padding="10dp"
+        		android:text="Sub4"
+        		android:textColor="#FFFFFF"
+        		android:textSize="25dp" />
+        	<Button
+      			android:id="@+id/bsSub5"
+        		android:layout_width="250dp"
+        		android:layout_height="50dp"
+        		android:layout_gravity="center"
+        		android:layout_margin="20dp"
+        		android:padding="10dp"
+        		android:text="Sub5"
+        		android:textColor="#FFFFFF"
+        		android:textSize="25dp" />
+        	<Button
+      			android:id="@+id/bsSub6"
+        		android:layout_width="250dp"
+        		android:layout_height="50dp"
+        		android:layout_gravity="center"
+        		android:layout_margin="20dp"
+        		android:padding="10dp"
+        		android:text="Sub6"
+        		android:textColor="#FFFFFF"
+        		android:textSize="25dp" />
+        	<Button
+      			android:id="@+id/bsSub7"
+        		android:layout_width="250dp"
+        		android:layout_height="50dp"
+        		android:layout_gravity="center"
+        		android:layout_margin="20dp"
+        		android:padding="10dp"
+        		android:text="Sub7"
+        		android:textColor="#FFFFFF"
+        		android:textSize="25dp" />
+        	<Button
+      			android:id="@+id/bsSub8"
+        		android:layout_width="250dp"
+        		android:layout_height="50dp"
+        		android:layout_gravity="center"
+        		android:layout_margin="20dp"
+        		android:padding="10dp"
+        		android:text="Sub8"
+        		android:textColor="#FFFFFF"
+        		android:textSize="25dp" />
+        	<Button
+      			android:id="@+id/bsSub9"
+        		android:layout_width="250dp"
+        		android:layout_height="50dp"
+        		android:layout_gravity="center"
+        		android:layout_margin="20dp"
+        		android:padding="10dp"
+        		android:text="Sub9"
+        		android:textColor="#FFFFFF"
+        		android:textSize="25dp" />
+        	<Button
+      			android:id="@+id/bsSub10"
+        		android:layout_width="250dp"
+        		android:layout_height="50dp"
+        		android:layout_gravity="center"
+        		android:layout_margin="20dp"
+        		android:padding="10dp"
+        		android:text="Sub10"
+        		android:textColor="#FFFFFF"
+        		android:textSize="25dp" />
+    		
+        </LinearLayout>
+        
+    </ScrollView>
+
+</LinearLayout>

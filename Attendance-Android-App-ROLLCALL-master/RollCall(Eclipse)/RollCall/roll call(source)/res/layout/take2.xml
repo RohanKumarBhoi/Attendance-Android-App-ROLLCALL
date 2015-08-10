@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/backdark"
+    android:id="@+id/tk2layout">
+    
+    <TextView
+        android:id="@+id/subcode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:text="subcode"
+        android:textColor="#E6E6E6"
+        android:textSize="30dp" />
+    
+    <Button
+        android:id="@+id/broll1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:alpha="0.8"
+        android:text="roll1"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" />
+    
+    <Button
+        android:id="@+id/broll2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="roll2"
+        android:alpha="0.8"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" />
+    
+    <Button
+        android:id="@+id/broll3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="roll3"
+        android:alpha="0.8"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" />
+    
+    <Button
+        android:id="@+id/broll4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="roll4"
+        android:alpha="0.8"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" />
+    
+    <Button
+        android:id="@+id/broll5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="roll5"
+        android:alpha="0.8"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" />
+    
+    <LinearLayout 
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="100">	
+
+       <Button
+           android:id="@+id/bup"
+           android:layout_width="35dp"
+           android:layout_height="35dp"
+           android:layout_gravity="left"
+           android:layout_weight="50"
+           android:textColor="#FFFFFF"
+           android:background="@drawable/up" />
+        
+       <Button
+           android:id="@+id/bdown"
+           android:layout_width="35dp"
+           android:layout_height="35dp"
+           android:layout_gravity="center"
+           android:layout_weight="50"
+           android:textColor="#FFFFFF"
+           android:background="@drawable/down"/>
+        
+    </LinearLayout>
+	<Button
+        android:id="@+id/bdone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="DONE" 
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"/>
+    
+
+</LinearLayout>
